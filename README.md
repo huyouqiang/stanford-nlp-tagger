@@ -9,6 +9,7 @@ fork:https://github.com/patrickschur/stanford-nlp-tagger
 ## 要求
 
 -您必须安装 Java 1.8+ 或更高版本
+
 -php version > 5.3
 
 ## 代码部分
