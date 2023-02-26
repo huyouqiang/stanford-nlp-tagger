@@ -87,3 +87,7 @@ fork:https://github.com/patrickschur/stanford-nlp-tagger
 ?>
 
 ```
+
+## 词性标注列表
+
+详见：https://zhuanlan.zhihu.com/p/476530235
