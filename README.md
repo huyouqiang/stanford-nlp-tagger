@@ -6,6 +6,11 @@ fork:https://github.com/patrickschur/stanford-nlp-tagger
 
 该词性标注器，可识别多语言的词性，本demo只实例化英文版本
 
+## 要求
+
+-您必须安装 Java 1.8+ 或更高版本
+-php version > 5.3
+
 ## 代码部分
 
 ```php
