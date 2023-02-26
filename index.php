@@ -5,10 +5,10 @@
 
 	$pos = new \StanfordTagger\POSTagger();
 
-	// 设置英文目录
+	// 设置英文目录，可设置相对目录
 	$pos->setModel('/usr/local/var/www/cixing/stanford-postagger-2018-10-16/models/english-bidirectional-distsim.tagger');
 
-	// 设置stanford-postagger目录
+	// 设置stanford-postagger目录，可设置相对目录
 	$pos->setJarArchive('/usr/local/var/www/cixing/stanford-postagger-2018-10-16/stanford-postagger.jar');
 	$pos->setOutputFormat(StanfordTagger::OUTPUT_FORMAT_SLASH_TAGS);
 	$res=$pos->tag('PHP wrapper for the Stanford Natural Language Processing library. Supports POSTagger and CRFClassifier');
